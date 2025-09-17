@@ -1,7 +1,7 @@
 [
   {
-    "name": "Lovepreet Singh",
-    "password": "12345",
+    "name": "l",
+    "password": "1",
     "hashed_password": "$2a$10$MqonEcizso4Re9iFEMajHOIHCUd5O3Q.XZX779C50ZnC/Hb6mirwW",
     "tickets_booked": [
       {
@@ -70,5 +70,12 @@
     "hashed_password": "$2a$10$O/OWE.xh3gttMANiM4BIX.mo.4/myik1J739DZ25ecVENk8xhMCW2",
     "tickets_booked": [],
     "user_id": "fe46da4d-c8d1-4229-97e6-600dce6941e8"
+  },
+  {
+    "name": "vishu",
+    "password": "vish123",
+    "hashed_password": "$2a$10$407ZoMVGpfM8ra15cXXq/unzh/SM8bbtZP5bytd2DB7cULQpBHVaa",
+    "tickets_booked": [],
+    "user_id": "d6a3a60e-14e1-4e81-b3c0-e742f75dcf75"
   }
 ]

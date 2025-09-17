@@ -47,10 +47,11 @@ public class App {
                     userBookingService.signUp(userToSignup);
                     break;
                 case 2:
+                    scanner.nextLine();
                     System.out.println("Enter the username to Login");
-                    String nameToLogin = scanner.next();
+                    String nameToLogin = scanner.nextLine();
                     System.out.println("Enter the password to signup");
-                    String passwordToLogin = scanner.next();
+                    String passwordToLogin = scanner.nextLine();
                     User userToLogin = new User(nameToLogin, passwordToLogin, UserServiceUtil.hashPassword(passwordToLogin), new ArrayList<>(), UUID.randomUUID().toString());
                     try{
                         userBookingService = new UserBookingService(userToLogin);
