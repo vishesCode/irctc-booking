@@ -1,4 +1,4 @@
-package org.learn.util;
+package ticket.booking.util;
 
 import org.mindrot.jbcrypt.BCrypt;
 
